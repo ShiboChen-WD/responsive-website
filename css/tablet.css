@@ -1,0 +1,38 @@
+/* Tablet Styles */
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header, footer {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #f4f4f4;
+}
+
+h1, h2 {
+    font-size: 28px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.column1, .column2 {
+    width: 48%;
+    float: left;
+    margin-right: 4%;
+}
+
+.column3 {
+    width: 100%;
+    clear: both;
+    margin-top: 20px;
+}

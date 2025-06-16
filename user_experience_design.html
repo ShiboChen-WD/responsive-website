@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Experience Design</title>
+
+    <!-- Media query for narrow browser width -->
+<link
+  rel="stylesheet"
+  media="only screen and (max-width: 480px)"
+  href="css/mobile.css"
+/>
+
+<!-- Media query for medium browser width -->
+<link
+  rel="stylesheet"
+  media="only screen and (min-width: 481px) and (max-width: 960px)"
+  href="css/tablet.css"
+/>
+
+<!-- Media query for full browser width -->
+<link
+  rel="stylesheet"
+  media="only screen and (min-width: 961px)"
+  href="css/desktop.css"
+/>
+
+<!-- Prevent smartphones from scaling the page by default -->
+<meta name="viewport" content="initial-scale=1" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+        h2 {
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        .prototype, .wireframes, .site_map {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .prototype a {
+            text-decoration: none;
+            color: #007BFF;
+            font-size: 18px;
+        }
+
+        .wireframes img, .site_map img {
+            width: 100%;
+            max-width: 800px;
+            display: block;
+            margin: 20px auto;
+            border: 1px solid #ddd;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>User Experience Design</h1>
+
+    <!-- Clickable Prototype Section -->
+    <section class="prototype">
+        <h2>Clickable Prototype</h2>
+        <p><a href="https://www.figma.com/design/IZrzvgrGm3f230WE2czdOY/Untitled?node-id=0-1&t=tGQ8r7qFVPw4A0ID-1" target="_blank">Click here to view the Clickable Prototype on Figma</a></p>
+    </section>
+
+    <!-- Wireframes Section -->
+    <section class="wireframes">
+        <h2>Wireframes</h2>
+        
+        <img src="images/home.png" alt="Home Wireframe">
+        <img src="images/products (1).png" alt="Products Wireframe">
+        <img src="images/makeup.png" alt="Makeup Wireframe">
+        <img src="images/skincare.png" alt="Skincare Wireframe">
+        <img src="images/contact (4).png" alt="Contact Wireframe">
+    </section>
+
+    <!-- Site Map Section -->
+    <section class="site_map">
+        <h2>Site Map</h2>
+        <img src="images/sitemap.png" alt="Site Map Diagram">
+    </section>
+
+    <nav>
+      <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about_me.html">About Me</a></li>
+            <li><a href="more_about_me.html">More About Me</a></li>
+            <li><a href="topic_of_interest.html">Topic of Interest</a></li>
+            
+        </ul>
+    </nav>
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+/* Desktop Styles */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header, footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f4f4f4;
+}
+
+h1, h2 {
+    font-size: 32px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 20px 0;
+}
+
+.column1, .column2, .column3 {
+    width: 32%;
+    float: left;
+    margin-right: 2%;
+}
+
+.column3 {
+    margin-right: 0;
+}
+
+footer {
+    clear: both;
+}
