@@ -1,12 +1,15 @@
-/* Desktop Styles */
+/* Desktop Styles using CSS Grid */
 .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns for desktop */
+    gap: 20px;
     width: 80%;
     margin: 0 auto;
     padding: 20px;
 }
 
 header, footer {
-    width: 100%;
+    grid-column: 1 / -1;
     text-align: center;
     padding: 20px 0;
     background-color: #f4f4f4;
@@ -28,15 +31,20 @@ img {
 }
 
 .column1, .column2, .column3 {
-    width: 32%;
-    float: left;
-    margin-right: 2%;
+    padding: 10px;
+}
+
+.column1 {
+    background-color: red;
+    color: white;
+}
+
+.column2 {
+    background-color: blue;
+    color: white;
 }
 
 .column3 {
-    margin-right: 0;
-}
-
-footer {
-    clear: both;
+    background-color: orange;
+    color: white;
 }

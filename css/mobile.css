@@ -1,16 +1,18 @@
-/* Mobile Styles */
+/* Mobile Styles using CSS Grid */
 .container {
+    display: grid;
+    grid-template-columns: 1fr; /* Single column for mobile */
+    gap: 20px;
     width: 100%;
     margin: 0 auto;
     padding: 10px;
 }
 
 header, footer {
-    width: 100%;
+    grid-column: 1 / -1;
     text-align: center;
     padding: 10px 0;
     background-color: #f4f4f4;
-    margin-bottom: 10px;
 }
 
 h1, h2 {
@@ -29,4 +31,19 @@ img {
 .column1, .column2, .column3 {
     width: 100%;
     margin-bottom: 20px;
+}
+
+.column1 {
+    background-color: red;
+    color: white;
+}
+
+.column2 {
+    background-color: blue;
+    color: white;
+}
+
+.column3 {
+    background-color: orange;
+    color: white;
 }

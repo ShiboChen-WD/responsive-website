@@ -1,12 +1,15 @@
-/* Tablet Styles */
+/* Tablet Styles using CSS Grid */
 .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns for tablet */
+    gap: 20px;
     width: 90%;
     margin: 0 auto;
     padding: 20px;
 }
 
 header, footer {
-    width: 100%;
+    grid-column: 1 / -1;
     text-align: center;
     padding: 10px 0;
     background-color: #f4f4f4;
@@ -26,13 +29,21 @@ img {
 }
 
 .column1, .column2 {
-    width: 48%;
-    float: left;
-    margin-right: 4%;
+    padding: 10px;
+}
+
+.column1 {
+    background-color: red;
+    color: white;
+}
+
+.column2 {
+    background-color: blue;
+    color: white;
 }
 
 .column3 {
-    width: 100%;
-    clear: both;
-    margin-top: 20px;
+    grid-column: 1 / -1;
+    background-color: orange;
+    color: white;
 }

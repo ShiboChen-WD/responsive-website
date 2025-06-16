@@ -4,90 +4,58 @@
     <meta charset="UTF-8">
     <title>About Me</title>
     <link rel="stylesheet" href="css/main.css" />
-    <!-- Media query for narrow browser width -->
-<link
-  rel="stylesheet"
-  media="only screen and (max-width: 480px)"
-  href="css/mobile.css"
-/>
-
-<!-- Media query for medium browser width -->
-<link
-  rel="stylesheet"
-  media="only screen and (min-width: 481px) and (max-width: 960px)"
-  href="css/tablet.css"
-/>
-
-<!-- Media query for full browser width -->
-<link
-  rel="stylesheet"
-  media="only screen and (min-width: 961px)"
-  href="css/desktop.css"
-/>
-
-<!-- Prevent smartphones from scaling the page by default -->
-<meta name="viewport" content="initial-scale=1" />
+    <link rel="stylesheet" media="only screen and (max-width: 480px)" href="css/mobile.css" />
+    <link rel="stylesheet" media="only screen and (min-width: 481px) and (max-width: 960px)" href="css/tablet.css" />
+    <link rel="stylesheet" media="only screen and (min-width: 961px)" href="css/desktop.css" />
+    <meta name="viewport" content="initial-scale=1" />
   </head>
   <body>
-    <h1>About Me</h1>
+    <div class="container">
+      <header>
+        <h1>About Me</h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="more_about_me.html">More About Me</a></li>
+            <li><a href="topic_of_interest.html">A Topic of Interest</a></li>
+            <li><a href="user_experience_design.html">User Experience Design</a></li>
+          </ul>
+        </nav>
+      </header>
 
-    <section>
-      <h2>My background</h2>
-      <p>
-        I have a strong interest in web design and digital creativity. 
-        To me, this kind of work brings together both technical skills 
-        and aesthetics. A website feels like a vibrant product. I'm also 
-        drawn to the business side of it, which involves a lot of creativity 
-        and potential. Learning the skills and knowledge in this field will 
-        help me take part in this exciting space.
-      </p>
-    </section>
+      <section class="column1">
+        <h2>My background</h2>
+        <p>
+          I have a strong interest in web design and digital creativity. To me, this kind of work brings together both technical skills and aesthetics.
+        </p>
+      </section>
 
-    <section>
-      <h2>My interests</h2>
-      <p>
-        One of my favorite hobbies is finding great food spots. 
-        Whether it’s a street vendor selling skewers or a hidden noodle shop, 
-        I love exploring new flavors and the stories behind them. 
-        Food has deep meaning in culture and is also one of life’s great pleasures.
-      </p>
-    </section>
+      <section class="column2">
+        <h2>My interests</h2>
+        <p>
+          One of my favorite hobbies is finding great food spots. Whether it’s a street vendor selling skewers or a hidden noodle shop, I love exploring new flavors and the stories behind them.
+        </p>
+      </section>
 
-    <img 
-      src="images/colorful_fish.jpg" 
-      alt="A pond with colorful koi fish swimming" 
-      width="300"
-    >
-    <img 
-      src="images/street_scene.jpg" 
-      alt="Bustling night street scene with lanterns and food stalls" 
-      width="300"
-    >
+      <section class="column3">
+        <img src="images/colorful_fish.jpg" alt="A pond with colorful koi fish swimming" width="300">
+        <img src="images/street_scene.jpg" alt="Bustling night street scene with lanterns and food stalls" width="300">
+        <p style="font-size: 0.9em;">
+          Image credit: Lina Moiseienko / iStock — 
+          <a href="https://www.istockphoto.com/photo/jalan-alor-in-nighttime-food-street-in-kuala-lumpur-city-center-blurred-photo-gm949603444-259753875" target="_blank">View original image</a>
+        </p>
+      </section>
 
-    <p style="font-size: 0.9em;">
-      Image credit: Lina Moiseienko / iStock — 
-      <a 
-        href="https://www.istockphoto.com/photo/jalan-alor-in-nighttime-food-street-in-kuala-lumpur-city-center-blurred-photo-gm949603444-259753875" 
-        target="_blank"
-      >
-        View original image
-      </a>
-    </p>
-
-    <p>
-      <a href="index.html">Home</a> | 
-      <a href="more_about_me.html">More About Me</a> | 
-      <a href="topic_of_interest.html">A Topic of Interest</a>|
-      <a href="user_experience_design.html">user_experience_design</a>
-    </p>
-
-    <!-- Separate Michelin Restaurant Guide Link Section -->
-    <section>
-      <h3>Explore Michelin Guide</h3>
-      <p>
-        For an in-depth guide to the world's best restaurants, check out the official <a href="https://guide.michelin.com/" target="_blank">Michelin Restaurant Guide</a>.
-      </p>
-    </section>
-
+      <footer>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="more_about_me.html">More About Me</a></li>
+            <li><a href="topic_of_interest.html">A Topic of Interest</a></li>
+            <li><a href="user_experience_design.html">User Experience Design</a></li>
+          </ul>
+        </nav>
+      </footer>
+    </div>
   </body>
 </html>

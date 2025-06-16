@@ -1,33 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>User Experience Design</title>
-
-    <!-- Media query for narrow browser width -->
-<link
-  rel="stylesheet"
-  media="only screen and (max-width: 480px)"
-  href="css/mobile.css"
-/>
-
-<!-- Media query for medium browser width -->
-<link
-  rel="stylesheet"
-  media="only screen and (min-width: 481px) and (max-width: 960px)"
-  href="css/tablet.css"
-/>
-
-<!-- Media query for full browser width -->
-<link
-  rel="stylesheet"
-  media="only screen and (min-width: 961px)"
-  href="css/desktop.css"
-/>
-
-<!-- Prevent smartphones from scaling the page by default -->
-<meta name="viewport" content="initial-scale=1" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" media="only screen and (max-width: 480px)" href="css/mobile.css" />
+    <link rel="stylesheet" media="only screen and (min-width: 481px) and (max-width: 960px)" href="css/tablet.css" />
+    <link rel="stylesheet" media="only screen and (min-width: 961px)" href="css/desktop.css" />
+    <meta name="viewport" content="initial-scale=1" />
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -69,43 +50,53 @@
         }
 
     </style>
-</head>
-<body>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>User Experience Design</h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about_me.html">About Me</a></li>
+            <li><a href="more_about_me.html">More About Me</a></li>
+            <li><a href="topic_of_interest.html">Topic of Interest</a></li>
+          </ul>
+        </nav>
+      </header>
 
-    <h1>User Experience Design</h1>
-
-    <!-- Clickable Prototype Section -->
-    <section class="prototype">
+      <!-- Clickable Prototype Section -->
+      <section class="prototype column1">
         <h2>Clickable Prototype</h2>
         <p><a href="https://www.figma.com/design/IZrzvgrGm3f230WE2czdOY/Untitled?node-id=0-1&t=tGQ8r7qFVPw4A0ID-1" target="_blank">Click here to view the Clickable Prototype on Figma</a></p>
-    </section>
+      </section>
 
-    <!-- Wireframes Section -->
-    <section class="wireframes">
+      <!-- Wireframes Section -->
+      <section class="wireframes column2">
         <h2>Wireframes</h2>
-        
         <img src="images/home.png" alt="Home Wireframe">
         <img src="images/products (1).png" alt="Products Wireframe">
         <img src="images/makeup.png" alt="Makeup Wireframe">
         <img src="images/skincare.png" alt="Skincare Wireframe">
         <img src="images/contact (4).png" alt="Contact Wireframe">
-    </section>
+      </section>
 
-    <!-- Site Map Section -->
-    <section class="site_map">
+      <!-- Site Map Section -->
+      <section class="site_map column3">
         <h2>Site Map</h2>
         <img src="images/sitemap.png" alt="Site Map Diagram">
-    </section>
+      </section>
 
-    <nav>
-      <ul>
+      <footer>
+        <nav>
+          <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about_me.html">About Me</a></li>
             <li><a href="more_about_me.html">More About Me</a></li>
             <li><a href="topic_of_interest.html">Topic of Interest</a></li>
-            
-        </ul>
-    </nav>
-
-</body>
+          </ul>
+        </nav>
+      </footer>
+    </div>
+  </body>
 </html>
